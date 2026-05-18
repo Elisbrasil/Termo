@@ -1,3 +1,20 @@
+function toggleFaq(el) {
+  const item = el.parentElement;
+  const answer = item.querySelector(".faq-answer");
+  const isOpen = item.classList.contains("open");
+
+  // close all
+  document.querySelectorAll(".faq-item").forEach((i) => {
+    i.classList.remove("open");
+    i.querySelector(".faq-answer").classList.remove("open");
+  });
+
+  if (!isOpen) {
+    item.classList.add("open");
+    answer.classList.add("open");
+  }
+}
+
 const obs = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
