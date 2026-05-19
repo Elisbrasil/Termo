@@ -48,6 +48,7 @@ body {
   align-items: center;
   min-height: 88vh;
   justify-items: center;
+  background: var(--cream-dark);
 }
 
 .eyebrow {
@@ -839,7 +840,7 @@ footer {
 
   .comp-table th,
   .comp-table td {
-    padding: 11px 11px;
+    padding: 10px 10px;
   }
 
   footer {
