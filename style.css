@@ -798,6 +798,17 @@ footer {
   .risco-card:last-child {
     border-bottom: none;
   }
+  .pillar-statement {
+    background: #2c3952;
+    color: #ffffff;
+    border: 3px solid var(--gold);
+    border-left: none;
+    padding: 30px 24px;
+    text-align: center;
+    margin: 30px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+  }
 
   .prob-grid,
   .dif-grid,
